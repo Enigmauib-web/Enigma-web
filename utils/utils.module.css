@@ -1,0 +1,56 @@
+.img{
+    width: auto;
+    height: auto;
+}
+
+.alt{
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    .lederDiv{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .lederDiv{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.leder{
+    width: 10rem;
+    height: 10rem;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+.header{
+    text-align: center;
+    font-weight: 300;
+}
+
+.circle{
+    margin: auto;
+    width: 9rem;
+    height: 9rem;
+    position: relative;
+    border: solid #0f407a 2px;
+    border-radius: 50%;
+    transition: 250ms;
+}
+
+/* .circle:hover{
+    opacity: 0.75;
+    width: 9.5rem;
+} */
+
+.leder>h3, .leder>h4{
+    font-weight: 450;
+    margin: 0;
+}

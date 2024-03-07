@@ -19,7 +19,7 @@ const sidebars = {
   // But you can create a sidebar manually
   tutorialSidebar: [
     'Om Enigma',
-    'Vedtekter',
+    'ITØK',
     {
       type: 'category',
       label: 'Styret',
@@ -44,6 +44,11 @@ const sidebars = {
       type: 'category',
       label: 'For Bedrifter',
       items: ['For Bedrifter/Bedriftspresentasjon med Enigma']
+    },
+    {
+      type: 'category',
+      label: 'Partnere',
+      items: ['Partnere/Stacc']
     },
   ],
    

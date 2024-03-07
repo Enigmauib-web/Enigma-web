@@ -71,7 +71,7 @@ const config = {
           //   label: 'Tutorial',
           // },
           {to: '/docs/Om Enigma', label: 'Om Enigma', position: 'left'},
-          {to: '/docs/Vedtekter', label: 'Vedtekter', position: 'left'},
+          {to: '/docs/ITØK', label: 'ITØK', position: 'left'},
           {to: '/docs/Interessegrupper/Fintech Enigma', label: 'Interessegrupper', position: 'left'},
           {to: '/docs/Komiteer/Arrangement', label: 'Komitèer', position: 'left'},
           {to: '/docs/For Bedrifter/Bedriftspresentasjon med Enigma', label: 'For bedrifter', position: 'left'},

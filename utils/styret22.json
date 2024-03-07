@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Astrid Hillesøy",
+        "title": "Leder",
+        "img": "/img/Styret22/Astrid.jpg"
+    },
+    {
+        "name": "Amadeus Linge",
+        "title": "Nestleder",
+        "img": "/img/Styret22/Amadeus.jpg"
+    },
+    {
+        "name": "Mirella Brodschöll ",
+        "title": "Økonomiansvarlig ",
+        "img": "/img/Styret22/Mirella.jpg"
+    },
+    {
+        "name": "Marthe Lindvall Kristiansen",
+        "title": "Bedriftsansvarlig ",
+        "img": "/img/Styret22/Marthe.jpg"
+    },
+    {
+        "name": "Henrik Wisth",
+        "title": "Bedriftsassistent ",
+        "img": "/img/Styret22/Henrik.jpg"
+    },
+    {
+        "name": "Niklas Marton Syverhuset",
+        "title": "SOME-Ansvarlig",
+        "img": "/img/Styret22/Niklas.jpg"
+    },
+    {
+        "name": "Tora Harboe",
+        "title": "SOME-Assistent",
+        "img": "/img/Styret22/Tora.jpg"
+    },
+    {
+        "name": "Tonje Mjaaland        ",
+        "title": "Arrangementansvarlig ",
+        "img": "/img/Styret22/Tonje.jpg"
+    }
+]
