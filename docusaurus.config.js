@@ -104,8 +104,16 @@ const config = {
                 href: 'https://www.linkedin.com/company/enigmaitok/'
               },
               {
+                label: 'TikTok',
+                href: 'https://www.tiktok.com/@enigma.uib'
+              },
+              {
                 label: 'GitHub',
                 href: 'https://github.com/Enigmauib-web',
+              },
+              {
+                label: 'Org.nr.: 929 208 854',
+                href: 'https://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=929208854'
               },
               {
                 label: 'Fosswinckels gate 14, 5007 Bergen',
@@ -119,6 +127,10 @@ const config = {
               {
                 label: "Epost",
                 href: "mailto: Enigma.forening@gmail.com"
+              },
+              {
+                label: "Opplevd noe ugreit? Ta kontakt med oss anonymt",
+                href: "/docs/For%20Studenter/Tilbakemeldinger"
               },
               // {
               //   label: 'Facebook',
@@ -147,7 +159,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Fintech Enigma. Built with Docusaurus.`,
+        copyright: `Enigma ITØK, Universitetet i Bergen`,
       },
       prism: {
         theme: prismThemes.github,

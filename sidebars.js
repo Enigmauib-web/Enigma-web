@@ -32,18 +32,18 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Interessegrupper',
-      items: ['Interessegrupper/Fintech Enigma', 'Interessegrupper/Enigma Bryggelag', 'Interessegrupper/Enigma Turgruppe', 'Interessegrupper/Enigma Badeklubb']
+      label: 'Undergrupper',
+      items: ['Undergrupper/Fintech Enigma', 'Undergrupper/Enigma Badeklubb', 'Undergrupper/Enigma Turgruppe', 'Undergrupper/Enigma Bryggelag', 'Undergrupper/Start en ny undergruppe']
     },
     {
       type: 'category',
       label: 'For Studenter',
-      items: ['For Studenter/Ny Student']
+      items: ['For Studenter/Ny Student', 'For Studenter/Tilbakemeldinger', 'For Studenter/Ledige Stillinger']
     },
     {
       type: 'category',
       label: 'For Bedrifter',
-      items: ['For Bedrifter/Bedriftspresentasjon med Enigma']
+      items: ['For Bedrifter/For Bedrifter', 'For Bedrifter/Hovedsamarbeidspartner', 'For Bedrifter/Bedriftspresentasjon med Enigma', 'For Bedrifter/Promotering']
     },
     {
       type: 'category',

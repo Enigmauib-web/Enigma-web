@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Ulrik Haugland",
+        "title": "Leder",
+        "img": "/img/Styret21/Ulrik.jpg"
+    },
+    {
+        "name": "Astrid Hillesøy",
+        "title": "Nestleder",
+        "img": "/img/Styret21/Astrid.jpg"
+    },
+    {
+        "name": "Thomas Nicolai Martinussen",
+        "title": "Økonomiansvarlig ",
+        "img": "/img/Styret21/Thomas.jpg"
+    },
+    {
+        "name": "Marthe Lindvall Kristiansen",
+        "title": "Bedriftsansvarlig ",
+        "img": "/img/Styret21/Marthe.jpg"
+    },
+    {
+        "name": "Tora Harboe",
+        "title": "SOME-Ansvarlig",
+        "img": "/img/Styret21/Tora.jpg"
+    },
+    {
+        "name": "Tonje Mjaaland        ",
+        "title": "Arrangementansvarlig ",
+        "img": "/img/Styret21/Tonje.jpg"
+    }
+]

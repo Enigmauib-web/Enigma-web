@@ -1,0 +1,66 @@
+# Tilbakemeldinger
+
+import { useState, useCallback, useEffect } from 'react';
+import axios from 'axios';
+import styles from './kontakt.module.css';
+
+
+##### Ønsker du å komme med en tilbakemelding til Enigma-styret? 
+Vi setter stor pris på alle tilbakemeldinger, enten det er ris, ros, kommentarer eller andre forslag. Har du et innspill? 
+
+Ta gjerne kontakt med styret på <a href='mailto:enigma.forening@gmail.com'><span style={{color: '#E2A914'}}>{'enigma.forening@gmail.com'}</span></a>
+
+Det er også mulig å komme med tilbakemelding anonymt ved å benytte skjemaet under.
+
+export const ContactForm = () => {
+    const [epostSendt, setEpostSendt] = useState(false);
+    const URL = 'https://fintechenigmaapi.onrender.com/EnigmaKontakt';
+    // const URL = 'http://127.0.0.1:5000/EnigmaKontakt'; // Utvikler server
+    const send = e => {
+        e.preventDefault();
+        const [ tittel, melding, checkbox ] = e.nativeEvent.srcElement;
+        if (!checkbox.checked){
+            alert("Vennligst bekreft at du har lest og forstått personvernerklæringen");
+        }
+        if( !tittel || !melding){
+            alert("Vennligst fyll inn alle feltene nedenfor.")
+        }
+        axios.post(URL, {
+            tittel: tittel.value,
+            melding: melding.value
+        })
+        .then(response => {
+            if( response.data.status === "OK"){
+                setEpostSendt(true);
+            }
+            else{
+                alert(response.data.status);
+            }
+        })
+        .catch(err => console.warn(err));
+    }
+    const takkMelding = (<div className={styles.takkmld}>Tusen takk for din tilbakemelding! Vi setter stor pris på alle tips og tilbakemeldinger.</div>);
+    const skjemaDiv = (
+        <form className={styles.skjema, styles.container} onSubmit={send} action={URL} method="POST">
+            <div className={styles.form_element}>
+                <label>Tittel: </label>
+                <input className={styles.input_text} style={{border: '1px solid #0F407A', borderRadius: '0.5rem', padding: '0.5rem'}} type="text" placeholder={'Tittel'} type="text"  id={styles.title} required />
+            </div>
+            <div className={styles.form_element}>
+                <label>Melding: </label>
+                <textarea type="text" className={styles.input_text, styles.input_textarea} placeholder={'Melding'} id={styles.message} rows="6" required />
+            </div>
+            <div className={styles.form_element} style={{marginTop: "-1rem"}}>
+                <label>Jeg har lest og forstått <a style={{color: "#E2A914"}} href={'/docs/Personvernerklæring'} target="_blank">personvernerklæringen</a>. </label>
+                <input type="checkbox" required />
+            </div>
+            <div className={styles.form_element}>
+                <input style={{border: '1px solid #0F407A', borderRadius: '0.5rem', padding: '0.5rem', cursor: 'pointer'}}  className={styles.input_submit} type="submit" id={styles.submit_button} value="Send"></input>
+            </div>
+        </form>
+    );
+    if(epostSendt) return takkMelding
+    else return skjemaDiv
+}
+
+<ContactForm />

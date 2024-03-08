@@ -2,7 +2,8 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
-import { TbFriends, TbBusinessplan  } from "react-icons/tb";
+import { TbFriends } from "react-icons/tb";
+import { MdOutlineBusinessCenter } from "react-icons/md";
 import { GiHiking } from "react-icons/gi";
 
 const FeatureList = [
@@ -11,8 +12,7 @@ const FeatureList = [
     Img: TbFriends,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Engima står for alt det sosiale som skjer på ITØK, inkludert spennede studieturer og den årlige hytteturen til Geilo. 
       </>
     ),
     href: '/docs/Komiteer/Arrangement'
@@ -22,19 +22,17 @@ const FeatureList = [
     Img: GiHiking,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Per i dag har Enigmastyret tre komitèer og fire undergrupper. Alt for enhver smak, og vi er åpne for å starte flere!
       </>
     ),
     href: '/docs/'
   },
   {
     title: 'Kontakt med næringslivet',
-    Img: TbBusinessplan ,
+    Img: MdOutlineBusinessCenter ,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Enigmas egen bedriftskomitè sørger for nær kontakt med næringslivet, samt arrangering av bedriftspresentasjoner o.l.
       </>
     ),
     href: '/docs/'

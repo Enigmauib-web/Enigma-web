@@ -40,7 +40,7 @@
     width: 9rem;
     height: 9rem;
     position: relative;
-    border: solid #0f407a 2px;
+    border: solid #E2A914 2px;
     border-radius: 50%;
     transition: 250ms;
 }
@@ -54,3 +54,25 @@
     font-weight: 450;
     margin: 0;
 }
+
+.bildediv{
+    display: grid;
+    align-items: center;
+}
+.bildediv>div{
+    margin-right: 1rem;
+}
+
+
+@media screen and (min-width: 640px) {
+    .bildediv{
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+      .bildediv{
+        grid-template-columns: repeat(1, 1fr);
+      }
+  }
+  
