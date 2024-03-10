@@ -65,3 +65,28 @@ export const Vimeo = ({ video, title }) => {
     </div>
   );
 };
+
+export const Player = ({videoSource, title}) => {
+    return (
+        <div style={{
+        paddingTop: "56.25%",
+        position: "relative",
+        }}>
+        <iframe
+            sandbox=''
+            src={videoSource}
+            style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "auto",
+            height: "100%",
+            }}
+            title={title}
+            frameBorder="0"
+            allow="fullscreen; picture-in-picture"
+            data-ready="true"
+        />
+        </div>
+    )
+}
