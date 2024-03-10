@@ -1,4 +1,5 @@
 import styles from './utils.module.css';
+import CookieConsent from "react-cookie-consent";
 
 export const Bilde = ({children, url, alt}) => {
     return (
@@ -90,3 +91,5 @@ export const Player = ({videoSource, title}) => {
         </div>
     )
 }
+
+export const Cookie = ({}) => <CookieConsent buttonText='Jeg forstår'>Denne siden bruker ingen cookies, så din aktivitet her er helt trygg :) Les mer <a target='_blank' href='/docs/Cookie Info'>her</a></CookieConsent>

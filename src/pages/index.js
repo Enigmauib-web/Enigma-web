@@ -7,6 +7,8 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
+import CookieConsent from "react-cookie-consent";
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -38,6 +40,7 @@ export default function Home() {
       <main>
         <HomepageFeatures />
       </main>
+      <CookieConsent buttonText='Jeg forstår'>Denne siden bruker ingen cookies, så din aktivitet her er helt trygg :) Les mer <a target='_blank' href='/docs/Cookie Info'>her</a></CookieConsent>
     </Layout>
   );
 }
