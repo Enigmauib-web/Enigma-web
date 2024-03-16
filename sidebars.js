@@ -38,7 +38,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'For Studenter',
-      items: ['For Studenter/Ny Student', 'For Studenter/Tilbakemeldinger', 'For Studenter/Ledige Stillinger']
+      items: ['For Studenter/Ny Student', 'For Studenter/Tilbakemeldinger', 'For Studenter/Tips og Triks', 'For Studenter/Ledige Stillinger']
     },
     {
       type: 'category',

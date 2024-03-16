@@ -72,10 +72,63 @@ const config = {
           // },
           {to: '/docs/Om Enigma', label: 'Om Enigma', position: 'left'},
           {to: '/docs/ITØK', label: 'ITØK', position: 'left'},
-          {to: '/docs/Undergrupper/Fintech Enigma', label: 'Undergrupper', position: 'left'},
-          {to: '/docs/Komiteer/Arrangement', label: 'Komitèer', position: 'left'},
-          {to: '/docs/For Bedrifter/Bedriftspresentasjon med Enigma', label: 'For bedrifter', position: 'left'},
-          {to: '/docs/For Studenter/Ny Student', label: 'Ny Student?', position: 'left'},
+
+          {items:[
+            {
+              to: '/docs/Undergrupper/Fintech Enigma', label: 'Fintech Enigma',
+            },
+            {
+              to: '/docs/Undergrupper/Enigma Badeklubb', label: 'Enigma Badeklubb',
+            },
+            {
+              to: '/docs/Undergrupper/Enigma Turgruppe', label: 'Enigma Friluftsliv',
+            },
+            {
+              to: '/docs/Undergrupper/Enigma Bryggelag', label: 'Enigma Bryggelag',
+            },
+          ], label: 'Undergrupper', position: 'left'},
+
+          {items: [
+            {
+              to: '/docs/Komiteer/Arrangement', label: 'Sosialkomiteen',
+            },
+            {
+              to: '/docs/Komiteer/Bedrift', label: 'Bedriftskomiteen',
+            },
+            {
+              to: '/docs/Komiteer/SoMe', label: 'SoMe Komiteen',
+            },
+          ], label: 'Komitèer', position: 'left'},
+
+          {items: [
+            {
+              to: '/docs/For Studenter/Ny Student?', label: 'Ny Student?',
+            },
+            {
+              to: '/docs/For Studenter/Tilbakemeldinger', label: 'Tilbakemeldinger',
+            },
+            {
+              to: '/docs/For Studenter/Tips og Triks', label: 'Tips & Triks',
+            },
+            {
+              to: '/docs/For Studenter/Ledige Stillinger', label: 'Ledige Stillinger',
+            }
+          ], label: 'For studenter', position: 'left'},
+
+          {items: [
+            {
+              to: '/docs/For Bedrifter/Hovedsamarbeidspartner', label: 'Hovedsamarbeidspartner',
+            },
+            {
+              to: '/docs/For Bedrifter/Bedriftspresentasjon med Enigma', label: 'Bedriftspresentasjon med Enigma',
+            },
+            {
+              to: '/docs/For Bedrifter/Promotering', label: 'Promotering / Stillingsutlysning',
+            },
+            {
+              to: '/docs/For Bedrifter/', label: 'For Bedrifter',
+            },
+          ], label: 'For bedrifter', position: 'left'},
 
           // {to: '/blog', label: 'Blogg', position: 'left'},
           // {

@@ -25,7 +25,7 @@ const FeatureList = [
         Per i dag har Enigmastyret tre komitèer og fire undergrupper. Alt for enhver smak, og vi er åpne for å starte flere!
       </>
     ),
-    href: '/docs/'
+    href: '/docs/Undergrupper/Fintech Enigma'
   },
   {
     title: 'Kontakt med næringslivet',
@@ -35,28 +35,28 @@ const FeatureList = [
         Enigmas egen bedriftskomitè sørger for nær kontakt med næringslivet, samt arrangering av bedriftspresentasjoner o.l.
       </>
     ),
-    href: '/docs/'
+    href: '/docs/Komiteer/Bedrift'
   },
 ];
 
 function Feature({Img, title, description, href}) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
+    <a className={clsx('col col--4' + " " + styles.featureContainer)} href={href} style={{textDecoration: 'none'}}>
+      <div className={"text--center"}>
         <Img className={styles.Img} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+        <p style={{color: 'black'}}>{description}</p>
       </div>
-    </div>
+    </a>
   );
 }
 
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
-      <div className="container">
+      <div className={"container"} style={{cursor: 'pointer'}}>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />

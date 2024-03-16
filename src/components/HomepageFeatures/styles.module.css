@@ -14,3 +14,11 @@
   color: #175bae;
   font-size: 10rem;
 }
+
+.featureContainer{
+  transition: 250ms;
+}
+
+.featureContainer:hover{
+  opacity: 0.8;
+}
