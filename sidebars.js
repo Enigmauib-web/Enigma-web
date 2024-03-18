@@ -43,7 +43,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'For Bedrifter',
-      items: ['For Bedrifter/For Bedrifter', 'For Bedrifter/Hovedsamarbeidspartner', 'For Bedrifter/Bedriftspresentasjon med Enigma', 'For Bedrifter/Promotering']
+      items: ['For Bedrifter/Kontakt oss', 'For Bedrifter/Hovedsamarbeidspartner', 'For Bedrifter/Bedriftspresentasjon med Enigma', 'For Bedrifter/Promotering']
     },
     {
       type: 'category',
