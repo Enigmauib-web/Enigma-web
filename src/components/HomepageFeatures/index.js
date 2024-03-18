@@ -12,17 +12,17 @@ const FeatureList = [
     Img: TbFriends,
     description: (
       <>
-        Engima står for alt det sosiale som skjer på ITØK, inkludert spennede studieturer og den årlige hytteturen til Geilo. 
+        Enigma arrangerer alt av det sosiale som skjer på ITØK. Bedriftspresentasjoner, hytteturer, fester og mye mer! 
       </>
     ),
     href: '/docs/Komiteer/Arrangement'
   },
   {
-    title: 'Komitèer og Interessegrupper',
+    title: 'Komitéer & Undergrupper',
     Img: GiHiking,
     description: (
       <>
-        Per i dag har Enigmastyret tre komitèer og fire undergrupper. Alt for enhver smak, og vi er åpne for å starte flere!
+        Vi har flere komitéer og undergrupper, for enhver smak, og flere er på vei! Finner du ikke en gruppe for deg? Vi setter stor pris på nye forslag, og bidrar gjerne med etableringen av nye grupper!
       </>
     ),
     href: '/docs/Undergrupper/Fintech Enigma'
@@ -32,7 +32,7 @@ const FeatureList = [
     Img: MdOutlineBusinessCenter ,
     description: (
       <>
-        Enigmas egen bedriftskomitè sørger for nær kontakt med næringslivet, samt arrangering av bedriftspresentasjoner o.l.
+        Enigmas bedriftskomité sørger for å etablere og opprettholde tette bånd mellom næringslivet og studentene på ITØK. Dette skjer gjennom bedriftspresentasjoner, workshops og liknende arrangementer.
       </>
     ),
     href: '/docs/Komiteer/Bedrift'
