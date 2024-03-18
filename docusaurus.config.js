@@ -90,13 +90,13 @@ const config = {
 
           {items: [
             {
-              to: '/docs/Komiteer/Arrangement', label: 'Sosialkomiteen',
+              to: '/docs/Komiteer/Arrangement', label: 'Sosialkomitéen',
             },
             {
-              to: '/docs/Komiteer/Bedrift', label: 'Bedriftskomiteen',
+              to: '/docs/Komiteer/Bedrift', label: 'Bedriftskomitéen',
             },
             {
-              to: '/docs/Komiteer/SoMe', label: 'SoMe Komiteen',
+              to: '/docs/Komiteer/SoMe', label: 'SoMe Komitéen',
             },
           ], label: 'Komitéer', position: 'left'},
 
@@ -117,6 +117,9 @@ const config = {
 
           {items: [
             {
+              to: '/docs/For Bedrifter/Kontakt oss', label: 'Kontakt oss',
+            },
+            {
               to: '/docs/For Bedrifter/Hovedsamarbeidspartner', label: 'Hovedsamarbeidspartner',
             },
             {
@@ -124,9 +127,6 @@ const config = {
             },
             {
               to: '/docs/For Bedrifter/Promotering', label: 'Promotering / Stillingsutlysning',
-            },
-            {
-              to: '/docs/For Bedrifter/Kontakt oss', label: 'Kontakt oss',
             },
           ], label: 'For bedrifter', position: 'left'},
 
