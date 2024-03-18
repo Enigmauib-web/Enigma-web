@@ -126,7 +126,7 @@ const config = {
               to: '/docs/For Bedrifter/Promotering', label: 'Promotering / Stillingsutlysning',
             },
             {
-              to: '/docs/For Bedrifter/Kontakt Oss', label: 'Kontakt Oss',
+              to: '/docs/For Bedrifter/Kontakt oss', label: 'Kontakt oss',
             },
           ], label: 'For bedrifter', position: 'left'},
 
