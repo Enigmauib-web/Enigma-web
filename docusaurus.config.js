@@ -96,7 +96,7 @@ const config = {
               to: '/docs/Komiteer/Bedrift', label: 'Bedriftskomitéen',
             },
             {
-              to: '/docs/Komiteer/SoMe', label: 'SoMe Komitéen',
+              to: '/docs/Komiteer/SoMe', label: 'SoMe komitéen',
             },
           ], label: 'Komitéer', position: 'left'},
 
