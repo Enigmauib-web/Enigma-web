@@ -98,20 +98,20 @@ const config = {
             {
               to: '/docs/Komiteer/SoMe', label: 'SoMe Komiteen',
             },
-          ], label: 'Komitèer', position: 'left'},
+          ], label: 'Komitéer', position: 'left'},
 
           {items: [
             {
-              to: '/docs/For Studenter/Ny Student?', label: 'Ny Student?',
+              to: '/docs/For Studenter/Ny Student?', label: 'Ny student?',
             },
             {
               to: '/docs/For Studenter/Tilbakemeldinger', label: 'Tilbakemeldinger',
             },
             {
-              to: '/docs/For Studenter/Tips og Triks', label: 'Tips & Triks',
+              to: '/docs/For Studenter/Tips og Triks', label: 'Tips & triks',
             },
             {
-              to: '/docs/For Studenter/Ledige Stillinger', label: 'Ledige Stillinger',
+              to: '/docs/For Studenter/Ledige Stillinger', label: 'Ledige stillinger',
             }
           ], label: 'For studenter', position: 'left'},
 
