@@ -22,7 +22,7 @@ const FeatureList = [
     Img: GiHiking,
     description: (
       <>
-        Vi har flere komitéer og undergrupper, for enhver smak, og flere er på vei! Finner du ikke en gruppe for deg? Vi setter stor pris på nye forslag, og bidrar gjerne med etableringen av nye grupper!
+        Vi har flere komitéer og undergrupper, og flere er på vei! Finner du ikke en gruppe for deg? Vi setter stor pris på nye forslag, og bidrar gjerne med etableringen av nye grupper!
       </>
     ),
     href: '/docs/Undergrupper/Fintech Enigma'
@@ -32,7 +32,7 @@ const FeatureList = [
     Img: MdOutlineBusinessCenter ,
     description: (
       <>
-        Enigmas bedriftskomité sørger for å etablere og opprettholde tette bånd mellom næringslivet og studentene på ITØK. Dette skjer gjennom bedriftspresentasjoner, workshops og liknende arrangementer.
+        Gjennom blant anent bedriftspresentasjoner og workshops bidrar Enigmas bedriftskomité til det tette båndet mellom studentene på ITØK og næringslivet.
       </>
     ),
     href: '/docs/Komiteer/Bedrift'
