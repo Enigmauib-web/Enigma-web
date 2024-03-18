@@ -18,7 +18,7 @@ const FeatureList = [
     href: '/docs/Komiteer/Arrangement'
   },
   {
-    title: 'Komitéer & Undergrupper',
+    title: 'Komitéer & undergrupper',
     Img: GiHiking,
     description: (
       <>
