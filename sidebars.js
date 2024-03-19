@@ -27,7 +27,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Komitèer',
+      label: 'Komitéer',
       items: ['Komiteer/Arrangement', 'Komiteer/Bedrift', 'Komiteer/SoMe']
     },
     {
@@ -37,12 +37,12 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'For Studenter',
+      label: 'For studenter',
       items: ['For Studenter/Ny Student', 'For Studenter/Tilbakemeldinger', 'For Studenter/Tips og Triks', 'For Studenter/Ledige Stillinger']
     },
     {
       type: 'category',
-      label: 'For Bedrifter',
+      label: 'For bedrifter',
       items: ['For Bedrifter/Kontakt oss', 'For Bedrifter/Hovedsamarbeidspartner', 'For Bedrifter/Bedriftspresentasjon med Enigma', 'For Bedrifter/Promotering']
     },
     {
