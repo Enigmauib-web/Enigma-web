@@ -23,7 +23,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Styret',
-      items: ['Styret/Styret H23',  'Styret/Styret H22', 'Styret/Styret H21']
+      items: ['Styret/Styret H24','Styret/Styret H23',  'Styret/Styret H22', 'Styret/Styret H21']
     },
     {
       type: 'category',
