@@ -76,3 +76,31 @@
       }
   }
   
+
+.bedriftGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 kolonner */
+    gap: 1px; /* Mellomrom mellom bildene */
+    justify-items: center;
+    align-items: center;
+}
+
+.bedriftContainer {
+    text-align: center;
+}
+
+.roundBilde {
+    border-radius: 50%; /* Gjør bildet rundt */
+    object-fit: cover; /* Sikrer at bildet fyller formen */
+    width: 250px; /* Standard størrelse */
+    height: 250px;
+    aspect-ratio: 1 / 1; /* Sikrer at bildet alltid er kvadratisk */
+    border: 3px solid var(--ifm-color-primary-dark); /* Gir en fin ramme */
+}
+
+.bedriftText {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+    text-align: center;
+}

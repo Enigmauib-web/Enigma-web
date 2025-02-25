@@ -128,6 +128,9 @@ const config = {
             {
               to: '/docs/For Bedrifter/Promotering', label: 'Promotering / Stillingsutlysning',
             },
+            {
+              to: '/docs/For Bedrifter/Logo', label: 'Logo',
+            },
           ], label: 'For bedrifter', position: 'left'},
 
           // {to: '/blog', label: 'Blogg', position: 'left'},

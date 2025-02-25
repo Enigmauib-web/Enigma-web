@@ -1,5 +1,6 @@
 import styles from './utils.module.css';
 import CookieConsent from "react-cookie-consent";
+import bedrift from './bedrift.json';
 
 export const Bilde = ({children, url, alt}) => {
     return (
@@ -9,6 +10,35 @@ export const Bilde = ({children, url, alt}) => {
         </div>
     )
 }
+
+export const BildeBredde = ({ url, alt, width = '300px' }) => {
+    return (
+        <div className={styles.img}>
+            <img src={url} alt={alt} style={{ width: width, height: 'auto' }} />
+            <p className={styles.alt}>{alt}</p>
+        </div>
+    );
+};
+
+
+export const BedriftBilder = ({ name, img }) => {
+    return (
+        <div className={styles.bedriftContainer}>
+            <img src={img} className={styles.roundBilde} alt={name} />
+            <p className={styles.bedriftText}>{name}</p>
+        </div>
+    );
+};
+
+export const BedriftGrid = () => {
+    return (
+        <div className={styles.bedriftGrid}>
+            {bedrift.map((props, idx) => (
+                <BedriftBilder key={idx} {...props} />
+            ))}
+        </div>
+    );
+};
 
 export const FolkBilder = ({children, name, title, img}) => {
     return (

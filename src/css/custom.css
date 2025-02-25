@@ -38,3 +38,39 @@ html[data-theme='dark'] footer {
 html[data-theme='light'] footer {
   background-color: #0f407a;
 }
+
+
+/* Custom table styling */
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Header row */
+.custom-table th {
+  background-color: var(--ifm-color-primary);
+  color: white;
+  padding: 10px;
+}
+
+/* Data rows */
+.custom-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Highlight numbers in gold */
+.custom-table td.gold {
+  color: #E2A914; /* or var(--ifm-color-primary) */
+  font-weight: bold;
+}
+
+/* Responsive table */
+@media (max-width: 768px) {
+  .custom-table {
+    font-size: 14px;
+  }
+}

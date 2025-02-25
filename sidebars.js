@@ -20,6 +20,7 @@ const sidebars = {
   tutorialSidebar: [
     'Om Enigma',
     'ITØK',
+    'Studiets oppbygging',
     {
       type: 'category',
       label: 'Styret',
@@ -38,12 +39,12 @@ const sidebars = {
     {
       type: 'category',
       label: 'For studenter',
-      items: ['For Studenter/Ny Student', 'For Studenter/Tilbakemeldinger', 'For Studenter/Tips og Triks', 'For Studenter/Ledige Stillinger']
+      items: ['For Studenter/Ny Student', 'For Studenter/Tilbakemeldinger', 'For Studenter/Tips og Triks', 'For Studenter/Ledige Stillinger', 'For Studenter/Vedtekter']
     },
     {
       type: 'category',
       label: 'For bedrifter',
-      items: ['For Bedrifter/Kontakt oss', 'For Bedrifter/Hovedsamarbeidspartner', 'For Bedrifter/Bedriftspresentasjon med Enigma', 'For Bedrifter/Promotering']
+      items: ['For Bedrifter/Kontakt oss', 'For Bedrifter/Hovedsamarbeidspartner', 'For Bedrifter/Bedriftspresentasjon med Enigma', 'For Bedrifter/Promotering',  'For Bedrifter/Logo']
     },
     {
       type: 'category',
