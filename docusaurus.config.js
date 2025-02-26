@@ -72,6 +72,7 @@ const config = {
           // },
           {to: '/docs/Om Enigma', label: 'Om Enigma', position: 'left'},
           {to: '/docs/ITØK', label: 'ITØK', position: 'left'},
+          {to: '/docs/Studiets oppbygging', label: 'Studiets oppbygging', position: 'left'},
 
           {items:[
             {
@@ -112,6 +113,9 @@ const config = {
             },
             {
               to: '/docs/For Studenter/Ledige Stillinger', label: 'Ledige stillinger',
+            },
+            {
+              to: '/docs/For Studenter/Vedtekter', label: 'Vedtekter',
             }
           ], label: 'For studenter', position: 'left'},
 
