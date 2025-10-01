@@ -87,6 +87,9 @@ const config = {
             {
               to: '/docs/Undergrupper/Enigma Bryggelag', label: 'Enigma Bryggelag',
             },
+            {
+              to: '/docs/Undergrupper/Enigma Futsal', label: 'Enigma Futsal',
+            },
           ], label: 'Undergrupper', position: 'left'},
 
           {items: [
