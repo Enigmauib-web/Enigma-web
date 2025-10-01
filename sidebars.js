@@ -34,7 +34,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Undergrupper',
-      items: ['Undergrupper/Fintech Enigma', 'Undergrupper/Enigma Badeklubb', 'Undergrupper/Enigma Turgruppe', 'Undergrupper/Enigma Bryggelag', 'Undergrupper/Start en ny undergruppe']
+      items: ['Undergrupper/Fintech Enigma', 'Undergrupper/Enigma Badeklubb', 'Undergrupper/Enigma Turgruppe', 'Undergrupper/Enigma Bryggelag', 'Undergrupper/Enigma Futsal', 'Undergrupper/Start en ny undergruppe']
     },
     {
       type: 'category',
