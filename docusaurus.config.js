@@ -112,9 +112,6 @@ const config = {
               to: '/docs/For Studenter/Tilbakemeldinger', label: 'Tilbakemeldinger',
             },
             {
-              to: '/docs/For Studenter/Tips og Triks', label: 'Tips & triks',
-            },
-            {
               to: '/docs/For Studenter/Ledige Stillinger', label: 'Ledige stillinger',
             },
             {
