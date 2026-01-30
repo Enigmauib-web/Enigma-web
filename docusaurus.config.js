@@ -208,7 +208,7 @@ const config = {
               },
              {
               html: `
-                  <a href="https://financeinnovation.no/" target="_blank"><img src="/img/Logoer/NCE_FinIn.png" style="width: auto; height: 4rem;"></a>
+                  <a href="https://financeinnovation.no/" target="_blank"><img src="/img/Logoer/NCE_FinIn.png" style="width: auto; height: 6rem;"></a>
                  `
               },
               // {
