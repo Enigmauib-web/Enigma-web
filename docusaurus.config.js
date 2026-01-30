@@ -206,6 +206,11 @@ const config = {
                   <a href="https://stacc.com" target="_blank"><img src="/img/stacc_logo_red-white.png" style="width: auto; height: 4rem;"></a>
                  `
               },
+             {
+              html: `
+                  <a href="https://financeinnovation.no/" target="_blank"><img src="/img/NCE_FinIn.png" style="width: auto; height: 4rem;"></a>
+                 `
+              },
               // {
               //   html: `
               //     <a href="https://www.soprasteria.no/home" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Sopra_Steria_logo.svg/2560px-Sopra_Steria_logo.svg.png" style="width: auto; height: 3rem;"></a>
