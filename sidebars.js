@@ -49,7 +49,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Partnere',
-      items: ['Partnere/Stacc']
+      items: ['Partnere/Stacc', 'Partnere/NCE Finance Innovation']
     }
   ]
    
